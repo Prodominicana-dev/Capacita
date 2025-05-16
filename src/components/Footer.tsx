@@ -119,7 +119,7 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center bg-[#512874] py-5 text-xs text-white font-semibold uppercase">
+      <div className="flex flex-col text-center justify-center items-center bg-[#512874] py-5 text-xs text-white font-semibold uppercase">
         <h1>
           CopyRight © {year}. ProDominicana Capacita. Todos los derechos
           reservados.

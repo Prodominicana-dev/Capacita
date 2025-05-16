@@ -7,13 +7,13 @@ export default function Hero() {
   return (
     <section className="relative w-full h-[70vh] flex items-center justify-center">
       <Image
-        src="/images/hero.jpg"
+        src="/images/hero1.jpg"
         alt="Logo"
         width={3840}
         height={2160}
         className="w-full h-full absolute inset-0 object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-black to-black/10 px-10 xl:px-28 py-10 flex items-center text-white">
+      <div className="absolute inset-0 bg-gradient-to-r from-black to-black/5 px-10 xl:px-28 py-10 flex items-center text-white">
         <div className="w-full xl:w-5/12">
           <h1 className="text-2xl xl:text-4xl font-bold mb-4">
             Verte lograr tus metas nos permite presentar las oportunidades de
