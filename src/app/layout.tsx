@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Capacita ProDominicana",
   description:
     "Impulsando el comercio exterior y la inversión extranjera a través de la educación de calidad.",
+  icons: {
+    icon: "/Capacita.svg",
+  },
 };
 
 export default function RootLayout({
