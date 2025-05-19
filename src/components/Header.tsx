@@ -15,11 +15,14 @@ export default function Header() {
         />
       </Link>
       <div className="gap-10 text-[#00295F] font-medium hidden lg:flex">
-        <Link href="/" className="hover:text-blue-700 duration-300 uppercase">
+        <Link
+          href="/plataforma/course/index.php"
+          className="hover:text-blue-700 duration-300 uppercase"
+        >
           Recursos y Herramientas
         </Link>
         <Link
-          href="/about"
+          href="/plataforma/course/index.php"
           className="hover:text-blue-700 duration-300 uppercase"
         >
           Contacto

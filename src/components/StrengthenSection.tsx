@@ -25,14 +25,14 @@ export default function StrengthenSection() {
               variant="outline"
               className=" border-2 border-sky-500 hover:bg-sky-600 hover:text-sky-400 bg-transparent duration-300 font-bold rounded-full m-0"
             >
-              <Link href="/register">Ingresa aquí</Link>
+              <Link href="/plataforma/login/index.php">Ingresa aquí</Link>
             </Button>
             <Button
               asChild
               variant="link"
               className="text-xs p-0 text-[#004B97] "
             >
-              <Link href="/register">
+              <Link href="/plataforma/login/signup.php">
                 Si no tienes un Usuario, Registrate aquí.
               </Link>
             </Button>

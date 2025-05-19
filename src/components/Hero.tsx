@@ -27,7 +27,7 @@ export default function Hero() {
             asChild
             className="bg-sky-500 hover:bg-sky-600 duration-300 text-white font-bold py-2 px-4 rounded"
           >
-            <Link href="/register">Comenzar</Link>
+            <Link href="/plataforma/login/index.php">Comenzar</Link>
           </Button>
         </div>
       </div>
