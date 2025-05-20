@@ -9,32 +9,49 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      name: "Esmeralda Taveras",
+      name: "Laura Méndez",
       role: "Estudiante",
-      text: "El curso fue increíble, aprendí mucho y los instructores fueron muy profesionales.",
-      image: "/images/avatars/esmeralda.png",
+      testimony:
+        "Gracias a Capacita, ahora entiendo mejor cómo exportar mis productos y he podido llegar a nuevos mercados.",
+      image: "/images/avatars/laura-mendez.png",
     },
     {
-      name: "Maria Lopez",
+      name: "Carlos Ramírez",
       role: "Estudiante",
-      text: "Una experiencia única, me ayudó a mejorar mis habilidades en el comercio exterior.",
-      image: "/images/avatars/esmeralda.png",
+      testimony:
+        "Las capacitaciones fueron claras y muy útiles. Me ayudaron a formalizar mi empresa y prepararme para la exportación.",
+      image: "/images/avatars/carlos-ramirez.png",
     },
     {
-      name: "Esmeralda Taveras",
+      name: "Sofía Vargas",
       role: "Estudiante",
-      text: "Recomiendo este curso a todos los que quieran aprender sobre comercio internacional.",
-      image: "/images/avatars/esmeralda.png",
+      testimony:
+        "Capacita me permitió conectar con expertos del comercio exterior y mejorar mi estrategia comercial.",
+      image: "/images/avatars/sofia-vargas.png",
+    },
+    {
+      name: "José Luis Peña",
+      role: "Estudiante",
+      testimony:
+        "Con Capacita entendí todo el proceso logístico para exportar. Ha sido una herramienta clave para mi negocio.",
+      image: "/images/avatars/jose-luis.png",
+    },
+    {
+      name: "Mariela Torres",
+      role: "Estudiante",
+      testimony:
+        "Estoy muy agradecida con ProDominicana por brindar una plataforma tan completa y accesible como Capacita.",
+      image: "/images/avatars/mariela-torres.png",
     },
   ];
+
   return (
     <section className="flex flex-col justify-center items-center bg-white py-16">
-      <h1 className="text-4xl text-black font-bold mb-10">Testimonios</h1>
+      <h1 className="text-4xl text-black font-bold mb-2">Testimonios</h1>
       <Carousel
         opts={{
           align: "start",
@@ -51,8 +68,8 @@ export default function TestimonialsSection() {
           {testimonials.map((testimonial, index) => (
             <CarouselItem key={index}>
               <div className="flex flex-col items-center p-2">
-                <p className="text-gray-600 text-center text-xl">
-                  {testimonial.text}
+                <p className="w-8/12 text-gray-600 text-center text-xl">
+                  {testimonial.testimony}
                 </p>
                 <div className="flex items-center justify-center gap-3 mt-5">
                   <Image
