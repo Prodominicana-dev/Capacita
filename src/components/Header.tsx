@@ -23,7 +23,8 @@ export default function Header() {
           Recursos y Herramientas
         </Link>
         <Link
-          href="/plataforma/course/index.php"
+          href="https://prodominicana.gob.do/contacto"
+          target="_blank"
           className="hover:text-blue-700 duration-300 uppercase"
         >
           Contacto
