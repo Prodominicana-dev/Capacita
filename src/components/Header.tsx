@@ -17,7 +17,7 @@ export default function Header() {
       </Link>
       <div className="gap-10 text-[#00295F] font-medium hidden lg:flex">
         <Link
-          href="/plataforma/course/index.php"
+          href="/plataforma/local/staticpage/view.php?page=Cursos-Disponibles"
           className="hover:text-blue-700 duration-300 uppercase"
         >
           Recursos y Herramientas
